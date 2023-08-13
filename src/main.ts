@@ -9,4 +9,5 @@ export const bootstrap = (): boolean => {
     console.time(TIME_TRACKER_KEY);
     const up = bootstrap();
     console.timeEnd(TIME_TRACKER_KEY);
+    console.log("[bootstrap] status:", up);
 })();
