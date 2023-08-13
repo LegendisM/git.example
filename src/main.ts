@@ -1,8 +1,12 @@
+import { TIME_TRACKER_KEY } from "./common/constant/time-tracker.constant";
+
 export const bootstrap = (): boolean => {
-    console.time('bootstrap');
     console.log("up");
-    console.timeEnd("bootstrap");
     return true;
 }
 
-bootstrap();
+(async () => {
+    console.time(TIME_TRACKER_KEY);
+    const up = bootstrap();
+    console.timeEnd(TIME_TRACKER_KEY);
+})();
