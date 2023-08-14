@@ -1,0 +1,33 @@
+{
+  "name": "git.example",
+  "version": "1.0.0",
+  "description": "repository to working with git advanced options and git-flow",
+  "main": "dist/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegendisM/git.example.git"
+  },
+  "keywords": [
+    "git",
+    "git-flow",
+    "typescript",
+    "node.js"
+  ],
+  "author": "LegendisM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LegendisM/git.example/issues"
+  },
+  "homepage": "https://github.com/LegendisM/git.example#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

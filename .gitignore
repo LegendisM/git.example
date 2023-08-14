@@ -1,2 +1,7 @@
+# node.js
+node_modules/
+dist/
+package-lock.json
+
 # dynamic assets
 assets/uploads/
